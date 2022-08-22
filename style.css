@@ -1,0 +1,14 @@
+header{
+    background-image: linear-gradient(transparent, #000000a1), url(image/headerBg.jpg);
+}
+
+.header-title{
+    font-size: 65px;
+    margin-top: 150px;
+    color: #FF5E19;
+}
+
+.header-pera{
+    font-size: 18px;
+    margin-bottom: 150px;
+}
