@@ -1,3 +1,8 @@
+
+body{
+    background-color: #151515;
+}
+
 header{
     background-image: linear-gradient(transparent, #000000a1), url(image/headerBg.jpg);
 }
@@ -13,6 +18,32 @@ header{
     margin-bottom: 150px;
 }
 
+
+.card-bg{
+    background-color: #0D0D0D;
+    color: white;
+}
+
+.button-bg{
+    background-color: #0D0D0D;
+}
+
+.button-bg button{
+    padding: 10px 80px;
+}
+
 .player-pic{
-    height: 200px;
+    height: 230px;
+}
+
+.selected-player{
+    background-color: #0D0D0D;
+}
+
+.budget{
+    background-color: #0D0D0D;
+}
+
+.total-cost{
+    color: #FF5E19;
 }
