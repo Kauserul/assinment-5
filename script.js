@@ -3,7 +3,8 @@ const playerArray = [];
 
 function display(playerNames){
     const singlePlayer = document.getElementById('per-player');
-    singlePlayer.innerHTML = ''
+    singlePlayer.innerHTML = '';
+
     // console.log(singlePlayer)
     for(let i = 0; i < playerNames.length; i++){
         // console.log(playerArray[i].playerName)
@@ -16,7 +17,6 @@ function display(playerNames){
         
         <li class="mb-3 list d-inline mb-5">${name}</li>
         `
-
         singlePlayer.appendChild(li)
     }
 }
