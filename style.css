@@ -16,6 +16,10 @@ header{
     color: #FF5E19;
 }
 
+.list{
+    list-style: none;
+}
+
 .header-pera{
     font-size: 18px;
     margin-bottom: 150px;
