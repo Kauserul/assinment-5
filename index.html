@@ -123,27 +123,31 @@
                             <h2 class="text-center mb-4">Budget</h2>
                             <div class="mb-3">
                                 <label for="">Per Player</label>
-                                <input class="w-50 ms-4" type="number">
+                                <input id="input-field" class="w-50 ms-3" type="number">
                             </div>
                             <div class="mb-3">
-                                <button class="btn btn-primary w-100 fw-bold">Calculate</button>
+                                <button id="per-player-cost" class="btn btn-primary w-100 fw-bold">Calculate</button>
                             </div>
                             <div class="mb-3">
                                 <span>Player Expenses</span>
-                                <span class="ms-5">$5000</span>
+                                <span class="ms-2">$<span id="player-expenses">00</span></span>
                             </div>
                             <div class="mb-3">
                                 <span class="me-2">Manager</span>
-                                <input class="w-50 ms-4" type="number" name="" id="">
+                                <input class="w-50 ms-3" type="number" name="" id="manage-cost">
                             </div>
                             <div class="mb-3">
-                                <span class="me-1">Coach</span>
-                                <input class="w-50 ms-5" type="number" name="" id="">
+                                <span class="me-3">Coach</span>
+                                <input class="w-50 ms-4" type="number" name="" id="coach-cost">
                             </div>
+
+                            <div class="mb-3">
+                                <button id="total-cost" class="btn btn-primary w-100 fw-bold">Calculate Total</button>
+                            </div> 
 
                             <div>
                                 <span class="me-5">Total</span>
-                                <span class="ms-5 total-cost">$10000</span>
+                                <span class="ms-5 total-cost">$<span id="total">00</span></span>
                             </div>
                         </div>
                     </div>
