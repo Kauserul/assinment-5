@@ -34,6 +34,7 @@ function getPlayerName(element){
 
     if(playerArray.length > 5){
         alert('You can not add more');
+        playerArray.pop()
         return
     }
 
